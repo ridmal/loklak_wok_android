@@ -22,7 +22,7 @@ android:
   - addon-$ANDROID_TAG-google-$ANDROID_API_LEVEL
   - extra-google-m2repository
   - extra-android-m2repository
-  - sys-img-armeabi-v7a-23
+  - sys-img-armeabi-v7a-22
 before_script:
   - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
   - emulator -avd test -no-audio -no-window &
